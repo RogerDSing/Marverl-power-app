@@ -1,0 +1,27 @@
+{
+  "028e9fd7-21d8-43e2-a00a-da1dfcdfb586": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fatecspgov-my.sharepoint.com/personal/rogerio_rodrigues11_fatec_sp_gov_br": {
+        "dataSources": {
+          "MV-Personagens": {
+            "tableName": "1e6b9f11-5bec-417b-ad31-9da0c0710aab"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "MV-Personagens"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "028e9fd7-21d8-43e2-a00a-da1dfcdfb586"
+  }
+}
